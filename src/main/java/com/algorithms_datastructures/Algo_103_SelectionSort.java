@@ -1,5 +1,7 @@
 package com.algorithms_datastructures;
 
+import net.minidev.json.JSONUtil;
+
 // Java program for implementation of Selection Sort
 class Algo_103_SelectionSort
 { 
@@ -10,10 +12,11 @@ class Algo_103_SelectionSort
 		{ 
 			// Find the minimum element in unsorted array 
 			int min_idx = i; 
-			for (int j = i+1; j < n; j++)
+			for (int j = i+1; j < n-1; j++){
+					System.out.println("------------------------------");
 				if (arr[j] < arr[min_idx]) 
-					min_idx = j; 
-
+					min_idx = j;
+			}
 			// Swap the found minimum element with the first 
 			// element 
 			int temp = arr[min_idx]; 

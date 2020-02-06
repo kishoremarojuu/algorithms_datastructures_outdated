@@ -4,7 +4,7 @@ package com.algorithms_datastructures;
 import java.io.*;
 import java.util.*;
 
-class SortingAlgo_100_RadixsortBucketsort {
+class Algo_105_RadixsortBucketsort {
 
     // A utility function to get maximum value in arr[]
     static int getMax(int arr[], int n)
@@ -45,7 +45,7 @@ class SortingAlgo_100_RadixsortBucketsort {
         }
 
         // Copy the output array to arr[], so that arr[] now
-        // contains sorted numbers according to curent digit
+        // contains sorted numbers according to curent digiRt
         for (i = 0; i < n; i++)
             arr[i] = output[i];
     }

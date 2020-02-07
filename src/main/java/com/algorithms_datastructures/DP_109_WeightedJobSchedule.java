@@ -33,7 +33,7 @@ class FinishTimeComparator implements Comparator<Job> {
  * Given set of jobs with start and end interval and profit, how to maximize profit such that
  * jobs in subset do not overlap.
  */
-public class DynamicProgramming_109_WeightedJobSchedule {
+public class DP_109_WeightedJobSchedule {
 
     /**
      * Sort the jobs by finish time.
@@ -76,7 +76,7 @@ public class DynamicProgramming_109_WeightedJobSchedule {
         jobs[3] = new Job(6, 7, 4);
         jobs[4] = new Job(5, 8, 11);
         jobs[5] = new Job(7, 9, 2);
-        DynamicProgramming_109_WeightedJobSchedule mp = new DynamicProgramming_109_WeightedJobSchedule();
+        DP_109_WeightedJobSchedule mp = new DP_109_WeightedJobSchedule();
         System.out.println(mp.maximum(jobs));
     }
 }

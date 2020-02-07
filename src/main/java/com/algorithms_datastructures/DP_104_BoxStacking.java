@@ -3,7 +3,7 @@ package com.algorithms_datastructures;
 import java.util.*;
 
 
-public class DynamicProgramming_104_BoxStacking {
+public class DP_104_BoxStacking {
     public int maxHeight(Dimension[] input) {
 //get all rotations of box dimension.
 //e.g if dimension is 1,2,3 rotations will be 2,1,3 3,2,1 3,1,2 . Here length is always greater
@@ -57,7 +57,7 @@ public class DynamicProgramming_104_BoxStacking {
     }
 
     public static void main(String[] args) {
-        DynamicProgramming_104_BoxStacking bs = new DynamicProgramming_104_BoxStacking();
+        DP_104_BoxStacking bs = new DP_104_BoxStacking();
         Dimension input[] = {
                 new Dimension(3, 2, 5),
                 new Dimension(1, 2, 4)

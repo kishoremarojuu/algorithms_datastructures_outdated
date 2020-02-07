@@ -1,11 +1,7 @@
 package com.algorithms_datastructures;
 
 /**
- * Date 02/11/2016
- * @author Tushar Roy
- *
- * Wild car matching with ? and *
- *
+
  * Reference
  * https://leetcode.com/problems/wildcard-matching/
  */

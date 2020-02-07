@@ -4,7 +4,7 @@ package com.algorithms_datastructures;
 /**
  * http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/
  */
-public class DynamicProgramming_108_CuttingRod2 {
+public class DP_108_CuttingRod2 {
 
 
     public int maxValue(int price[]){
@@ -18,7 +18,7 @@ public class DynamicProgramming_108_CuttingRod2 {
     }
 
     public static void main(String args[]) {
-        DynamicProgramming_108_CuttingRod2 cr = new DynamicProgramming_108_CuttingRod2();
+        DP_108_CuttingRod2 cr = new DP_108_CuttingRod2();
         int price[] = new int[]{1, 5, 8, 9, 10, 17, 17, 20};
         long t1 = System.currentTimeMillis();
         int r = cr.maxValue(price);

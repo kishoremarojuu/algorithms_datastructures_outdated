@@ -4,7 +4,7 @@ package com.algorithms_datastructures;
 import java.util.Arrays;
 import java.util.List;
 
-class DynamicProgramming_113_WordBreakRecursion {
+class DP_113_WordBreakRecursion {
     // Function to segment given String into a space-separated
     // sequence of one or more dictionary words
 

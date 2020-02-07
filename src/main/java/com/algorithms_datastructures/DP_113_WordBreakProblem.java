@@ -3,7 +3,7 @@ package com.algorithms_datastructures;
 
 import java.util.*;
 
-public class DynamicProgramming_113_WordBreakProblem {
+public class DP_113_WordBreakProblem {
 
     /**
      * Dynamic programming version for breaking word problem.
@@ -80,7 +80,7 @@ public class DynamicProgramming_113_WordBreakProblem {
         dictionary.add("am");
         dictionary.add("ace");
         String str = "Iamace";
-        DynamicProgramming_113_WordBreakProblem bmw = new DynamicProgramming_113_WordBreakProblem();
+        DP_113_WordBreakProblem bmw = new DP_113_WordBreakProblem();
         String result1 = bmw.breakWordDP(str, dictionary);
 
         System.out.print(result1);

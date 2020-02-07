@@ -6,7 +6,7 @@ of long because we want to be able to test
 large values
 without integer overflow*/
 
-class DynamicProgramming_107_CoinChangeProblem {
+class DP_107_CoinChangeProblem {
 
     static int getNumberOfWays(int S[], int m, int n) {
         // Create the ways array to 1 plus the amount

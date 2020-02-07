@@ -1,6 +1,6 @@
 package com.algorithms_datastructures;
 
-public class DynamicProgramming_111_MaximizeSubMatrix {
+public class DP_111_MaximizeSubMatrix {
 
     private int min(int a, int b, int c) {
         int l = Math.min(a, b);
@@ -50,7 +50,7 @@ public class DynamicProgramming_111_MaximizeSubMatrix {
                        {1, 1, 1, 0, 1}
                       };
 
-        DynamicProgramming_111_MaximizeSubMatrix mssm = new DynamicProgramming_111_MaximizeSubMatrix();
+        DP_111_MaximizeSubMatrix mssm = new DP_111_MaximizeSubMatrix();
         int result = mssm.maxSize(arr);
         System.out.print(result);
     }

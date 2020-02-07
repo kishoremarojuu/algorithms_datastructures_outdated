@@ -9,7 +9,7 @@ package com.algorithms_datastructures;
  * Reference
  * https://leetcode.com/problems/wildcard-matching/
  */
-public class DynamicProgramming_110_WildCardMatching {
+public class DP_110_WildCardMatching {
     public boolean isMatch(String s, String p) {
         char[] str = s.toCharArray();
         char[] pattern = p.toCharArray();
@@ -85,7 +85,6 @@ public class DynamicProgramming_110_WildCardMatching {
     }
 
     public static void main(String args[]) {
-        DynamicProgramming_110_WildCardMatching wcm = new DynamicProgramming_110_WildCardMatching();
-        System.out.println(wcm.isMatch("xbylmz", "x?y*z"));
+        DynamicProgramming_110_WildCardMatching wcm = new DynamicProDP_110_WildCardMatching  System.o DP_110_WildCardMatching));
     }
 }

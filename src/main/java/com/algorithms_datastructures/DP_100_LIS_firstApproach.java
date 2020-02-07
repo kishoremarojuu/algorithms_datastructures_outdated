@@ -1,7 +1,7 @@
 package com.algorithms_datastructures;
 
     /* A Naive Java Program for LIS Implementation */
-    class DynamicProgramming_100_LIS_firstApproach
+    class DP_100_LIS_firstApproach
     {
         static int max_ref; // stores the LIS
 

@@ -3,7 +3,7 @@ package com.algorithms_datastructures;
     // Dynamic Programming Java implementation of Matrix
 // Chain Multiplication.
 // See the Cormen book for details of the following algorithm
-    class DynamicProgramming_106_MatrixChainMultiplication
+    class DP_106_MatrixChainMultiplication
     {
         // Matrix Ai has dimension p[i-1] x p[i] for i = 1..n
         static int MatrixChainOrder(int p[], int n)

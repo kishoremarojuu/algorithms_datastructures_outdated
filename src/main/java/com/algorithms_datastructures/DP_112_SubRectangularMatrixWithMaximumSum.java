@@ -1,6 +1,6 @@
 package com.algorithms_datastructures;
 
-public class DynamicProgramming_112_SubRectangularMatrixWithMaximumSum {
+public class DP_112_SubRectangularMatrixWithMaximumSum {
 
         class Result{
             int maxSum;
@@ -81,7 +81,7 @@ public class DynamicProgramming_112_SubRectangularMatrixWithMaximumSum {
                     { 0,  6,  3,  4,  1},
                     { 2, -2, -1,  4, -5},
                     {-3,  3,  1,  0,  3}};
-            DynamicProgramming_112_SubRectangularMatrixWithMaximumSum saw = new DynamicProgramming_112_SubRectangularMatrixWithMaximumSum();
+            DP_112_SubRectangularMatrixWithMaximumSum saw = new DP_112_SubRectangularMatrixWithMaximumSum();
             System.out.println(saw.maxSum(input));
         }
     }

@@ -1,7 +1,7 @@
 package com.algorithms_datastructures;
 
 
-class DynamicProgramming_100_LIS {
+class DP_100_LIS {
     /* lis() returns the length of the longest increasing
     subsequence in arr[] of size n */
     static int lis(int arr[], int n) {

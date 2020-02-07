@@ -1,7 +1,7 @@
 package com.algorithms_datastructures;
 
 
-public class DynamicProgramming_102_longestPalindromeSubsequence {
+public class DP_102_longestPalindromeSubsequence {
 
 
     public static int LPS(String s) {

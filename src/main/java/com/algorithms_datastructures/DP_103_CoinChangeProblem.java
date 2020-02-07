@@ -4,7 +4,7 @@ package com.algorithms_datastructures;
 Change problem */
 import java.util.Arrays;
 
-class DynamicProgramming_103_CoinChangeProblem
+class DP_103_CoinChangeProblem
 {
     static long countWays(int S[], int m, int n)
     {

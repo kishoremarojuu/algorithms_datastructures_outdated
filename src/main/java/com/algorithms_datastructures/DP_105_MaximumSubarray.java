@@ -5,7 +5,7 @@ package com.algorithms_datastructures;
 // Java program to print largest contiguous array sum
 import java.util.*;
 
-class DynamicProgramming_105_MaximumSubarray
+class DP_105_MaximumSubarray
 {
     public static void main (String[] args)
     {

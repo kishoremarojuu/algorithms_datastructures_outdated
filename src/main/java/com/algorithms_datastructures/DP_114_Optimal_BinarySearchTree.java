@@ -1,6 +1,6 @@
 package com.algorithms_datastructures;
 
-public class DynamicProgramming_114_Optimal_BinarySearchTree {
+public class DP_114_Optimal_BinarySearchTree {
 
     public int minCostRec(int input[],int freq[]){
         
@@ -61,7 +61,7 @@ public class DynamicProgramming_114_Optimal_BinarySearchTree {
     public static void main(String args[]){
         int input[] = {10,12,16,21};
         int freq[] = {4,2,6,3};
-        DynamicProgramming_114_Optimal_BinarySearchTree ots = new DynamicProgramming_114_Optimal_BinarySearchTree();
+        DP_114_Optimal_BinarySearchTree ots = new DP_114_Optimal_BinarySearchTree();
         System.out.println(ots.minCost(input, freq));
         System.out.println(ots.minCostRec(input, freq));
     }

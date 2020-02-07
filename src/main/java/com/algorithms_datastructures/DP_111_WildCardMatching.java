@@ -1,9 +1,7 @@
 package com.algorithms_datastructures;
 
+public class DP_111_WildCardMatching {
 
-
-
-public class WildCardMatching {
     public boolean isMatch(String s, String p) {
         char[] str = s.toCharArray();
         char[] pattern = p.toCharArray();
@@ -81,7 +79,7 @@ public class WildCardMatching {
     }
 
     public static void main(String args[]) {
-        WildCardMatching wcm = new WildCardMatching();
+        DP_111_WildCardMatching wcm = new DP_111_WildCardMatching();
         System.out.println(wcm.isMatch("xbylmz", "x?y*z"));
     }
 }

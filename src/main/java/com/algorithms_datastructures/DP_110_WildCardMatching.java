@@ -1,11 +1,9 @@
 package com.algorithms_datastructures;
 
-/**
 
- * Reference
- * https://leetcode.com/problems/wildcard-matching/
- */
-public class DP_110_WildCardMatching {
+
+
+public class WildCardMatching {
     public boolean isMatch(String s, String p) {
         char[] str = s.toCharArray();
         char[] pattern = p.toCharArray();
@@ -33,6 +31,7 @@ public class DP_110_WildCardMatching {
         }
 
         T[0][0] = true;
+
         for (int i = 1; i < T.length; i++) {
             for (int j = 1; j < T[0].length; j++) {
                 if (pattern[j-1] == '?' || str[i-1] == pattern[j-1]) {
@@ -42,6 +41,7 @@ public class DP_110_WildCardMatching {
                 }
             }
         }
+
         return T[str.length][writeIndex];
     }
 
@@ -81,6 +81,7 @@ public class DP_110_WildCardMatching {
     }
 
     public static void main(String args[]) {
-        DynamicProgramming_110_WildCardMatching wcm = new DynamicProDP_110_WildCardMatching  System.o DP_110_WildCardMatching));
+        WildCardMatching wcm = new WildCardMatching();
+        System.out.println(wcm.isMatch("xbylmz", "x?y*z"));
     }
 }

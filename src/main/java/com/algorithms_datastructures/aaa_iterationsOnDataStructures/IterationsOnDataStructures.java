@@ -1,9 +1,8 @@
-package com.algorithms_datastructures;
-
+package com.algorithms_datastructures.aaa_iterationsOnDataStructures;
 
 import java.util.*;
+public class IterationsOnDataStructures {
 
-public class aaa_IteratorsOnDataStructures {
     public static void main(String[] args) {
 
         //differences between forloop and forEachloop
@@ -14,7 +13,7 @@ public class aaa_IteratorsOnDataStructures {
         }
         System.out.println("iterating array using forEachLoop");
         for( int key:arr) {
-          //  System.out.println(key);
+            //  System.out.println(key);
         }
         System.out.println("iterating array using while Loop"); //whileLoop is complicated with array
         int v=0;
@@ -34,14 +33,14 @@ public class aaa_IteratorsOnDataStructures {
         System.out.println("iterating hashmap with for loop");
         Set<Map.Entry<Integer, String>> entries = hashMap.entrySet();
         for (Map.Entry<Integer, String> entry: entries) {
-           // System.out.print(entry.getKey()); System.out.println(entry.getValue());
+            // System.out.print(entry.getKey()); System.out.println(entry.getValue());
         }
 
         System.out.println("iterating hashmap with while loop");
         Iterator iterator = hashMap.entrySet().iterator();
         while(iterator.hasNext()){
             Map.Entry mapElement = (Map.Entry)iterator.next();
-           // System.out.print(mapElement.getKey()); System.out.println(mapElement.getValue());
+            // System.out.print(mapElement.getKey()); System.out.println(mapElement.getValue());
         }
 
         //hashMap iterations using custom dataType
@@ -87,7 +86,7 @@ public class aaa_IteratorsOnDataStructures {
             }
 
         }
-   
+
     }
 }
 
@@ -95,7 +94,7 @@ public class aaa_IteratorsOnDataStructures {
 class Employee {
     private String FirstName;
     private String LastName;
-    
+
     public String getFirstName() {
         return FirstName;
     }
@@ -112,7 +111,7 @@ class Employee {
         LastName = lastName;
     }
 
-   
+
 
 }
 

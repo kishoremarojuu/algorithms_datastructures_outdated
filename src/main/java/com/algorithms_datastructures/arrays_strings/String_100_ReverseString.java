@@ -1,6 +1,6 @@
 package com.algorithms_datastructures.arrays_strings;
 
-public class Arrays_100_ReverseString {
+public class String_100_ReverseString {
 
     public static void main(String args[] ) throws Exception {
         System.out.println(reverseString("kishore"));

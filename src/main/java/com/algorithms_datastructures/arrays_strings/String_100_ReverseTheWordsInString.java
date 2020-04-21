@@ -1,6 +1,6 @@
 package com.algorithms_datastructures.arrays_strings;
 
-public class Arrays_101_ReverseTheWordsInString {
+public class String_100_ReverseTheWordsInString {
     public static void main(String args[] ) throws Exception {
         String input = "Wherever you go you can always find beauty";
         System.out.println(reversetheWordsInString(input));

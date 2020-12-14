@@ -13,26 +13,24 @@ public class ListExample {
         arrlist.add(40);
 
         /* For Loop for iterating ArrayList */
-        System.out.println("For Loop");
         for (int counter = 0; counter < arrlist.size(); counter++) {
-            System.out.println(arrlist.get(counter));
+            //System.out.println(arrlist.get(counter));
         }
 
         /* Advanced For Loop*/
-        System.out.println("Advanced For Loop");
         for (Integer num : arrlist) {
-            System.out.println(num);
+            //System.out.println(num);
         }
 
         /*Looping Array List using Iterator*/
-        System.out.println("Iterator");
         Iterator iter = arrlist.iterator();
         while (iter.hasNext()) {
-            System.out.println(iter.next());
+          //  System.out.println(iter.next());
         }
 
         //looping using java8 streams
         arrlist.stream().forEach(System.out::println);
+
 
 
     }

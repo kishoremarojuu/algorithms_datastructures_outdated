@@ -22,6 +22,31 @@ public class IterationsOnDataStructures {
             v=v+1;
         }
 
+          ArrayList<Integer> arrlist = new ArrayList<Integer>();
+      arrlist.add(14);
+      arrlist.add(7);
+      arrlist.add(39);
+      arrlist.add(40);
+
+         /* For Loop for iterating ArrayList */
+      System.out.println("For Loop");
+      for (int counter = 0; counter < arrlist.size(); counter++) { 		      
+          System.out.println(arrlist.get(counter)); 		
+      } 
+        
+          /* Advanced For Loop*/ 		
+      System.out.println("Advanced For Loop"); 		
+      for (Integer num : arrlist) { 		      
+           System.out.println(num); 		
+      }
+       
+         /*Looping Array List using Iterator*/
+      System.out.println("Iterator");
+      Iterator iter = arrlist.iterator();
+      while (iter.hasNext()) {
+         System.out.println(iter.next());
+      }
+        //----------------------------------------------------------------------
         //Hashmap iterations
         HashMap<Integer, String> hashMap = new HashMap<>();
         hashMap.put(1, "kishore");
